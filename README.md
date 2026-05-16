@@ -61,7 +61,7 @@ docs/papers/llm/2026-05-16-attention-is-all-you-need.md
 
 ## 本地预览
 
-第一次使用时，在你的默认 Python 环境中安装依赖。如果你使用的是 Anaconda/Miniconda，保持终端处于 `(base)` 环境即可：
+第一次使用时，可以选择在你的默认 Python 环境中安装依赖。如果你使用的是 Anaconda/Miniconda，保持终端处于 `(base)` 环境即可：
 
 ```bash
 git clone git@github.com:wangtust/paper_share.git
