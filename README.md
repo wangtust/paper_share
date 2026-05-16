@@ -61,13 +61,11 @@ docs/papers/llm/2026-05-16-attention-is-all-you-need.md
 
 ## 本地预览
 
-第一次使用：
+第一次使用时，在你的默认 Python 环境中安装依赖。如果你使用的是 Anaconda/Miniconda，保持终端处于 `(base)` 环境即可：
 
 ```bash
 git clone git@github.com:wangtust/paper_share.git
 cd paper_share
-python3 -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 ```
@@ -78,13 +76,14 @@ mkdocs serve
 http://127.0.0.1:8000
 ```
 
-之后每次进入仓库：
+之后每次进入仓库，直接运行：
 
 ```bash
 cd paper_share
-source .venv/bin/activate
 mkdocs serve
 ```
+
+如果 `pip install -r requirements.txt` 被系统 Python 拒绝，优先切换到自己的 Conda 环境或用 Conda 安装 Python 后再执行，不建议强行破坏系统 Python 环境。
 
 ## 日常协作流程
 
