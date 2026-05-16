@@ -1,0 +1,64 @@
+site_name: Paper Share
+site_description: 三人共同维护的论文阅读分享站点
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 首页: index.md
+  - 总论文清单: reading-list.md
+  - 协作规范: workflow.md
+  - 领域:
+      - 大语言模型: topics/llm.md
+      - RAG: topics/rag.md
+      - Agent: topics/agent.md
+      - 多模态: topics/multimodal.md
+      - 计算机视觉: topics/cv.md
+      - 自然语言处理: topics/nlp.md
+      - 系统与工程: topics/systems.md
+  - 论文笔记:
+      - 总览: papers/index.md
+      - 大语言模型: papers/llm/index.md
+      - RAG: papers/rag/index.md
+      - Agent: papers/agent/index.md
+      - 多模态: papers/multimodal/index.md
+      - 计算机视觉: papers/cv/index.md
+      - 自然语言处理: papers/nlp/index.md
+      - 系统与工程: papers/systems/index.md
+  - 模板:
+      - 论文笔记模板: note-templates/paper-note.md
