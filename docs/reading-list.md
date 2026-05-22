@@ -4,6 +4,7 @@
 
 | 日期 | 领域 | 论文 | 阅读人 | 状态 | 笔记 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-05-22 | LLM / Reasoning RL | Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning | crabyang | 已完成 | [精读笔记](papers/llm/pure-stop-summation-reading-note.md) / [连续问答](papers/llm/pure-stop-summation-qa-note.md) |
 | 2026-05-16 | 示例 | Example Paper | 你的名字 | 待读 | - |
 
 ## 状态说明
